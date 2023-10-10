@@ -1,0 +1,20 @@
+#backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.262);
+  text-align: center;
+}
+#backdrop button {
+  top: calc(50% - (58px / 2));
+  right: calc(50% - (58px / 2));
+  display: block;
+    position: fixed;
+}
+#myImage {
+  max-inline-size: '100%';
+  block-size: 'auto';
+}

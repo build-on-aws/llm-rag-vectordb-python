@@ -1,0 +1,486 @@
+{
+	"public_identifier": "suman-d",
+	"profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/suman-d/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230825%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230825T162928Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d0a44cdf5238f916130cf62aaf4a6e70c39aa0eb4b2030d6eed2c4fd0e57562d",
+	"background_cover_image_url": null,
+	"first_name": "Suman",
+	"last_name": "Debnath ",
+	"full_name": "Suman Debnath",
+	"follower_count": 9616,
+	"occupation": "Principal Developer Advocate, Data Engineering and Analytics at Amazon Web Services (AWS)",
+	"headline": "Transforming lazily, Data Engineering @ Amazon Web Services",
+	"summary": "\\u2022\\tPreviously worked as Technical Lead focusing on QA, Automation, Performance and Tool Development efforts towards the NVMe Over Fabrics engineering solution.\\n\\u2022\\tWorked as a Staff Engineer for Broadcom with the Performance Benchmarking and Technical Marketing group\\n\\u2022\\tCompTIA Storage+ SME, responsible to develop the question set for the SNIA Certified Storage Professional certification examination. \\n\\u2022\\tStorage Professional, mostly focusing on Performance Engineering, System Testing, Quality Engineering and Solutioning. Worked with clients to evaluate technologies. Conduct Assessments/ Workshops/PoC, provide solution architecture\\n\\u2022\\tStorage and system performance engineer, focusing on raw and application based performance benchmarking (like Oracle, MS SQL Server, MS Exchange Server, Storage Migration, Bootstrom, etc.) \\n\\u2022\\tStorage QE professional, expertise on system, regression and performance testing for various storage systems, especially on distributed storage systems, like IBM SVC and EMC VPLEX\\n\\u2022\\tLeveraged open source tools, like Vagrant, Ansible and Docker to improve the test efficiency \\n\\u2022\\tExpertise in delivering technical training & workshops (EMC VPLEX, IBM SVC, IBM V7000 Storwize, Customized Workshop)\\n\\u2022\\tAuthor of more than 30 white papers, published for Broadcom, IBM and Hitachi Data Systems\\n\\u2022\\tFrequent speaker at various national and international conference like, SNIA, GHCI and PyConf \\n\\u2022\\tDeveloped Performance Monitoring tool for Brocade FC switches \\n\\u2022\\tDeveloped Tool for Measuring VM Bootstorm performance benchmarking \\n\\u2022\\tGithub - https://github.com/suman-d",
+	"country": "US",
+	"country_full_name": "United States of America",
+	"city": "Boston",
+	"state": "Massachusetts",
+	"experiences": [{
+		"starts_at": {
+			"day": 1,
+			"month": 7,
+			"year": 2022
+		},
+		"ends_at": null,
+		"company": "Amazon Web Services (AWS)",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/amazon-web-services/",
+		"title": "Principal Developer Advocate, Data Engineering and Analytics",
+		"description": null,
+		"location": "Boston, Massachusetts, United States",
+		"logo_url": "https://media.licdn.com/dms/image/C560BAQER_QnUTXrPJw/company-logo_400_400/0/1670264050886?e=1700697600&v=beta&t=DicqTgSOApjcw6M2A27i8tCXwAo3s8o37qQro1v859s"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2022
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 7,
+			"year": 2022
+		},
+		"company": "Amazon Web Services (AWS)",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/amazon-web-services/",
+		"title": "Principal, Amazon Elastic File System (Amazon EFS) ",
+		"description": null,
+		"location": "Boston, Massachusetts, United States",
+		"logo_url": "https://media.licdn.com/dms/image/C560BAQER_QnUTXrPJw/company-logo_400_400/0/1670264050886?e=1700697600&v=beta&t=DicqTgSOApjcw6M2A27i8tCXwAo3s8o37qQro1v859s"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 7,
+			"year": 2019
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 12,
+			"year": 2021
+		},
+		"company": "Amazon Web Services (AWS)",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/amazon-web-services/",
+		"title": "Principal Developer Advocate",
+		"description": "Worked with the Global Developer Relations Team, focusing on core services, serverless and machine learning.\\n\\u2022\\tHosted 120+ third party conference and meetups in last 2 years focusing on various technology stack around Serverless, Machine Learning and Data Analysis. \\n\\u2022\\tPresented at Tier 1 AWS events like re:Invent, AWS Innovate, AWS Modern Application Development, Amazon AI Innovate, AWS DevDay, etc. Hosted \\u201cAWS on Air\\u201d show at re:Invent. \\n\\u2022\\tDeveloped developer focused content around Machine Learning and Serverless. \\n\\u2022\\tScaled the number of AWS User Group from 17 to 28 within two year in the region(India/SL/Bangladesh)",
+		"location": "Bangalore Urban, Karnataka, India",
+		"logo_url": "https://media.licdn.com/dms/image/C560BAQER_QnUTXrPJw/company-logo_400_400/0/1670264050886?e=1700697600&v=beta&t=DicqTgSOApjcw6M2A27i8tCXwAo3s8o37qQro1v859s"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 5,
+			"year": 2017
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2019
+		},
+		"company": "Toshiba America Electronic Components, Inc.",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/toshiba-america-electronic-components-inc./",
+		"title": "Project Leader",
+		"description": "Lead the Performance QA, Quality Engineering efforts for Toshiba NVMe over Fabric(KumoScale) Engineering solution \\n\\u2022\\tMentor new hire and train the team with the technology and product \\n\\u2022\\tDeveloped performance regression testing suite and reporting dashboard\\n\\u2022\\tDeveloped automated test suit for REST API \\n\\u2022\\tPerformance benchmarking for various data center application (stand-alone and container based)\\n\\u2022\\tPerforming POC and Demos on NVMeoF solution and Docker/Kubernetes\\n\\u2022\\tParticipating as a speaker at various conferences like Flash Memory Summit, PyCon, SNIA, OpenSource for you, etc. \\n\\u2022\\tDevelop technical content wiki, white-papers and solution briefs",
+		"location": "Pune, Maharashtra, India",
+		"logo_url": "https://media.licdn.com/dms/image/C4E0BAQGHe97KBeyd5g/company-logo_400_400/0/1536870926328?e=1700697600&v=beta&t=UfC9aZxHjQ-1bWbA5gsp7WKxwmHwxSp4F7GO3yNfJlc"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2016
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 4,
+			"year": 2017
+		},
+		"company": "Broadcom Inc.",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/broadcom/",
+		"title": "Principal Performance Engineer",
+		"description": "Worked with the Performance Engineering and Technical Marketing Group (Emulex Business Unit) focusing on FC HBA performance\\ncharacterization, PoC and benchmarking with various Flash Storage Systems.\\n\\u2022\\tIndustry Performance Benchmarking \\u2013 TPC-H, TPC-C and SPECsfs\\n\\u2022\\tPerformance characterization of various workload for 8Gb, 16Gb and 32Gb FC cards\\n\\u2022\\tBenchmarking for FC card\\u2019s QoS(Quality of Service)\\n\\u2022\\tWriting blogs/technical performance brief papers for Engineering, Support and Product Marketing\\n\\u2022\\tPerformance Benchmarking for SQL Server 2016 database with FC HBAs\\n\\u2022\\tPerformance Benchmarking for Storage Migration(HyperV, ESX, and Citrix) over FC for the Gen6 32Gbps HBA adapters\\n\\u2022\\tBenchmarking/PoC for various flash arrays from different vendors, like, Dell, EMC, Violin, XtremIO, Kaminario, Pure, Nimble, etc.",
+		"location": "Bangalore Urban, Karnataka, India",
+		"logo_url": "https://media.licdn.com/dms/image/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/0/1519856412341?e=1700697600&v=beta&t=NaJA5QQY4GcmEcPgIcDyZ3hf8HLoQg2pcW2cuMEjxgU"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 2,
+			"year": 2015
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2016
+		},
+		"company": "NetApp",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/netapp/",
+		"title": "Member of Technical Staff",
+		"description": "Worked with the Performance Products Group (PPG) focusing on validation and verification of various NetApp products.\\n\\u2022\\tValidating Service Processor security aspects for encryption(FIPS Qualification)\\n\\u2022\\tPerformance Analysis for various workload, OLTP, DSS, etc. \\n\\u2022\\tPerformance Regression test design\\n\\u2022\\tWork with the Information Engineering team for field documents",
+		"location": "Bangalore Urban, Karnataka, India",
+		"logo_url": "https://media.licdn.com/dms/image/C560BAQH78XSLHqxMOQ/company-logo_400_400/0/1599748887845?e=1700697600&v=beta&t=9l-RqO7O2KbdLwfkVSArft0uHoxNhewRRi3C90_NR7E"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2013
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 12,
+			"year": 2014
+		},
+		"company": "EMC",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/dellemc/",
+		"title": "Senior Software Engineer",
+		"description": "Worked for EMC Private Cloud workforce with VPLEX Engineering.\\n\\u2022\\tSystem testing for features, failure, DR for VPLEX \\n\\u2022\\tDesign, development and writing of system test case for core features and regression.\\n\\u2022\\tCustomer Demos showcasing HA and Continuous Availability with VPLEX\\n\\u2022\\tDrive scoping of overall test effort for various new functionalities in a release and assist functional team leads for test scoping in their individual areas\\n\\u2022\\tProvide technical whiteboard sessions to engineering team on critical functionalities in the product\\n\\u2022\\tAdhere to SCRUM process during the product development phase\\n\\u2022\\tFocusing on IO Performance Regression efforts for VPLEX for different releases\\n\\u2022\\tRegression bisection and performance defect triage\\n\\u2022\\tBenchmark and performance characterization of different VPLEX configurations",
+		"location": "Bangalore Urban, Karnataka, India",
+		"logo_url": "https://media.licdn.com/dms/image/C510BAQErubCcqX1TpQ/company-logo_400_400/0/1557939499088?e=1700697600&v=beta&t=Xg1IsjPqVYofRGXdFdP-rE2qMtSOikmRcu-wjcPjx1I"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2011
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2013
+		},
+		"company": "IBM",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/ibm/",
+		"title": "Storage Solution Architect",
+		"description": "Worked with the Storage Lab Services, India System and Technology Lab (ISTL) which comes under the umbrella of India Software Lab (ISL), IBM\\n\\n\\u2022\\tDesigning and testing of various IBM System Virtualization Storage solution for arrays, like SVC and V7000.\\n\\u2022\\tDesigning of complex SAN environment for various clients and providing them training on various IBM System Storage products, upcoming technologies, certifications, etc.\\n\\u2022\\tDesigning and testing of Disaster Recovery Solution with various Replication Technologies\\n\\u2022\\tBandwidth Calculation Tool Development of Disaster Recovery solutions\\n\\u2022\\tPerformance Assessment of Storage Environment and Storage Health Check Assessment\\n\\u2022\\tMultiple projects handled for System and Technology Group (STG), GTS (including SO), GBS ranging from architecture, assessments, performance engineering, Offering development, Technical Project Management and customized STG trainings.\\n\\u2022\\tCollaborate with all Services teams (GTS, GBS, SWG Lab Services and our IBM Business Partners) in the optimal deployment of IBM\\u00ae STG solutions\\n\\u2022\\tConducting training on upcoming technologies, IBM System Storage, IBM Certifications, etc. to different clients and business partners.  \\n\\u2022\\tDefine and develop Document of Understand(DoU) and Scope of Work(SoW) before the start of any engagement",
+		"location": "Bangalore Urban, Karnataka, India",
+		"logo_url": "https://media.licdn.com/dms/image/D560BAQGiz5ecgpCtkA/company-logo_400_400/0/1688684715427?e=1700697600&v=beta&t=u5Re06Myc9BstE2M6qN9MMORKODl8XmTlCBTPMoVtXk"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 5,
+			"year": 2008
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2011
+		},
+		"company": "Hitachi Data Systems",
+		"company_linkedin_profile_url": "https://www.linkedin.com/company/hitachi-vantara/",
+		"title": "Performance Consultant",
+		"description": "Worked for HITACHI Data Systems (HDS) with the Global Solution Strategy and Development Team as a Performance Consultant\\n\\n\\u2022\\tBenchmark raw/application performance testing on HDS Modular Storage\\n\\u2022\\tAuthor of 20+ HDS performance best practice and white paper (ESRP-Exchange 2007/2010) for HDS Sales.\\n\\u2022\\tTrained Microsoft Exchange Rangers and designed 10+ Exchange Storage Solutions. \\n\\u2022\\tReceived Hitachi Data Systems Hat\\u2019s Off Award in April\\u20192010.\\n\\u2022\\tFulltime SNIA Corporate Member(Vendor Large Voting Membership)",
+		"location": "Kolkata, West Bengal, India",
+		"logo_url": "https://media.licdn.com/dms/image/D560BAQFrBPM24o_Ruw/company-logo_400_400/0/1688414684342?e=1700697600&v=beta&t=iJrkUek9qMKrbI_eM2vbwhV-4IrPICq9bnXs_QlWj70"
+	}],
+	"education": [{
+		"starts_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2023
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2026
+		},
+		"field_of_study": "Data Science",
+		"degree_name": "Master of Technology - MTech",
+		"school": "Indian Institute of Technology, Hyderabad",
+		"school_linkedin_profile_url": null,
+		"description": null,
+		"logo_url": "https://media.licdn.com/dms/image/C4D0BAQG6UPyQQfOPnA/company-logo_400_400/0/1671364855002?e=1700697600&v=beta&t=B5C17cb-dhoFwswXeHlVcgM5pKrlkZLiv7ReqZONl5E",
+		"grade": null,
+		"activities_and_societies": null
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2003
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2007
+		},
+		"field_of_study": "Electronics and Communication Engineering",
+		"degree_name": "Bachelor's degree",
+		"school": "West Bengal University of Technology, Kolkata",
+		"school_linkedin_profile_url": null,
+		"description": null,
+		"logo_url": "https://media.licdn.com/dms/image/C560BAQEmEH6AAomm9Q/company-logo_400_400/0/1557680992185?e=1700697600&v=beta&t=cBbixDGUPM67tTR8vS7Vzv0eWhngf0REoXqmyqZ0D38",
+		"grade": null,
+		"activities_and_societies": null
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 1,
+			"year": 1991
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 1,
+			"year": 2003
+		},
+		"field_of_study": null,
+		"degree_name": null,
+		"school": "Kendriya Vidyalaya",
+		"school_linkedin_profile_url": null,
+		"description": null,
+		"logo_url": "https://media.licdn.com/dms/image/C4E0BAQFiB3Otc6s1Mw/company-logo_400_400/0/1519897001940?e=1700697600&v=beta&t=FKWNOS94gsOi8q82DmC2tJxm3e8JWCYSDnMxT476fuc",
+		"grade": null,
+		"activities_and_societies": null
+	}],
+	"languages": ["Bengali", "English", "Hindi"],
+	"accomplishment_organisations": [],
+	"accomplishment_publications": [{
+		"name": "Python Workshop @ City Engineering College, Bangalore",
+		"publisher": "Python Express",
+		"published_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2016
+		},
+		"description": null,
+		"url": "https://pythonexpress.in/"
+	}, {
+		"name": "Python Workshop @ KLE S Nijalingappa College , Bengaluru ",
+		"publisher": "Python Express",
+		"published_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2016
+		},
+		"description": null,
+		"url": "https://pythonexpress.in/"
+	}, {
+		"name": "Python Workshop @ MVIT, Bangalore",
+		"publisher": "Python Express",
+		"published_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2016
+		},
+		"description": null,
+		"url": "https://pythonexpress.in/"
+	}, {
+		"name": "Storage, System and Infrastructure deployment automation using Open Source DevOps Tools (Ansible and Vagrant)",
+		"publisher": "PyDelhi",
+		"published_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2016
+		},
+		"description": null,
+		"url": "https://www.youtube.com/watch?v=Epmp9uOsUYA"
+	}, {
+		"name": "Designing of LBGM on IBM Storwize V7000 & Performance Monitoring",
+		"publisher": "IBM DevelopmentWorks",
+		"published_on": null,
+		"description": null,
+		"url": "https://www.ibm.com/developerworks/mydeveloperworks/blogs/869bac74-5fc2-4b94-81a2-6153890e029a/entry/february_16_2012_3_54_am9?lang=en"
+	}, {
+		"name": "HDS Exchange Solution Whitepapers",
+		"publisher": "HDS and Microsoft",
+		"published_on": null,
+		"description": null,
+		"url": "http://technet.microsoft.com/en-us/exchange/ff182054.aspx"
+	}],
+	"accomplishment_honors_awards": [{
+		"title": "Broadcom Spot Award",
+		"issuer": "Broadcom",
+		"issued_on": {
+			"day": 1,
+			"month": 11,
+			"year": 2016
+		},
+		"description": null
+	}, {
+		"title": "NetApp Champion's Award ",
+		"issuer": "NetApp",
+		"issued_on": {
+			"day": 1,
+			"month": 10,
+			"year": 2015
+		},
+		"description": null
+	}, {
+		"title": "EMC Quarterly Award",
+		"issuer": "EMC Corporation",
+		"issued_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2014
+		},
+		"description": null
+	}, {
+		"title": "EMC Quarterly Award",
+		"issuer": "EMC Corporation",
+		"issued_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2013
+		},
+		"description": null
+	}, {
+		"title": "IBM Architect Award",
+		"issuer": "IBM",
+		"issued_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2012
+		},
+		"description": null
+	}, {
+		"title": "HDS Hat's Off Award",
+		"issuer": "Hitachi Data Systems",
+		"issued_on": {
+			"day": 1,
+			"month": 1,
+			"year": 2010
+		},
+		"description": null
+	}],
+	"accomplishment_patents": [],
+	"accomplishment_courses": [],
+	"accomplishment_projects": [{
+		"starts_at": {
+			"day": 1,
+			"month": 11,
+			"year": 2014
+		},
+		"ends_at": {
+			"day": 1,
+			"month": 11,
+			"year": 2014
+		},
+		"title": "CompTIA Storage+ Powered by SNIA Storage Exam Development",
+		"description": "The team participated in the development of the Storage+ certification exam. Members developed questions for exam question bank; reviewed and revised existing questions from the bank, and provided input to CompTIA/SNIA regarding the overall content of the exam.",
+		"url": null
+	}],
+	"accomplishment_test_scores": [],
+	"volunteer_work": [],
+	"certifications": [{
+		"starts_at": {
+			"day": 1,
+			"month": 12,
+			"year": 2022
+		},
+		"ends_at": null,
+		"name": "AWS Certified Data Analytics - Specialty",
+		"license_number": "K6L962KKQ1BQ11KS",
+		"display_source": "credly.com",
+		"authority": "Amazon Web Services (AWS)",
+		"url": "https://www.credly.com/badges/7e72ca27-5134-43df-ae86-1e98631b248a/public_url"
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 11,
+			"year": 2020
+		},
+		"ends_at": null,
+		"name": "AWS Certified Machine Learning \\u2013 Specialty",
+		"license_number": "7XYRPK4LC2Q11QW7",
+		"display_source": null,
+		"authority": "Amazon Web Services (AWS)",
+		"url": null
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 11,
+			"year": 2019
+		},
+		"ends_at": null,
+		"name": "AWS Certified Developer -Associate",
+		"license_number": "AWS01010287",
+		"display_source": null,
+		"authority": "Amazon Web Services (AWS)",
+		"url": null
+	}, {
+		"starts_at": {
+			"day": 1,
+			"month": 11,
+			"year": 2019
+		},
+		"ends_at": null,
+		"name": "AWS Certified Solutions Architect - Associate",
+		"license_number": "AWS-ASA-18864",
+		"display_source": null,
+		"authority": "Amazon Web Services (AWS)",
+		"url": null
+	}, {
+		"starts_at": null,
+		"ends_at": null,
+		"name": "EMC Certified Information Storage Associate",
+		"license_number": "GV5D7YL5EJEQYR5S",
+		"display_source": null,
+		"authority": "Dell EMC",
+		"url": null
+	}, {
+		"starts_at": null,
+		"ends_at": null,
+		"name": "EMC Certified VPLEX Specialist Engineer",
+		"license_number": "QPSJZM8QM11427T1",
+		"display_source": null,
+		"authority": "Dell EMC",
+		"url": null
+	}, {
+		"starts_at": null,
+		"ends_at": null,
+		"name": "IBM Certified Mid-range Storage Professional",
+		"license_number": null,
+		"display_source": null,
+		"authority": "IBM",
+		"url": null
+	}, {
+		"starts_at": null,
+		"ends_at": null,
+		"name": "SNIA Certified Storage Architect",
+		"license_number": null,
+		"display_source": null,
+		"authority": "SNIA",
+		"url": null
+	}, {
+		"starts_at": null,
+		"ends_at": null,
+		"name": "SNIA Certified Storage Professional",
+		"license_number": null,
+		"display_source": null,
+		"authority": "SNIA",
+		"url": null
+	}, {
+		"starts_at": null,
+		"ends_at": null,
+		"name": "VMware Certified Associate(VCA) - Data Center Virtualization",
+		"license_number": "VMW-01170564Y-00382439",
+		"display_source": null,
+		"authority": "VMware",
+		"url": null
+	}],
+	"connections": null,
+	"people_also_viewed": [],
+	"recommendations": [],
+	"activities": [],
+	"similarly_named_profiles": [{
+		"name": "Suman Debnath",
+		"link": "https://in.linkedin.com/in/suman-debnath-28962a9a",
+		"summary": "tbm at Ranbaxy",
+		"location": "Assam, India"
+	}, {
+		"name": "Suman Debnath",
+		"link": "https://in.linkedin.com/in/suman-debnath-0b29a4b5",
+		"summary": "Certified SuccessFactors LMS consultant (by Profession) and A Learner by Nature. Helping my clients with their Learning compliance need.",
+		"location": "Kolkata"
+	}, {
+		"name": "Suman Debnath",
+		"link": "https://in.linkedin.com/in/sumandebnath100",
+		"summary": "Software Engineer at PayPal",
+		"location": "Chennai"
+	}, {
+		"name": "Suman debnath",
+		"link": "https://de.linkedin.com/in/suman-debnath-0524735b",
+		"summary": "Restaurant Manager at Athidhi Indian Restaurant",
+		"location": "Wiesloch"
+	}],
+	"articles": [],
+	"groups": [],
+	"skills": [],
+	"inferred_salary": null,
+	"gender": null,
+	"birth_date": null,
+	"industry": null,
+	"extra": null,
+	"interests": [],
+	"personal_emails": [],
+	"personal_numbers": []
+}

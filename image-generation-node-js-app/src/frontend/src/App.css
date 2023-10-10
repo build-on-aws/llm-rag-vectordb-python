@@ -1,0 +1,100 @@
+/* File: App.css */
+
+.container {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-size: 20px;
+    color: #8e44ad;
+}
+
+.text-muted {
+    color: #3498db !important;
+}
+
+.centerButton {
+    display: block;
+    margin: 0 auto 20px auto;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.centerButton:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+#backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.img-fluid {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+}
+
+.fancy-radio .custom-control-label::before {
+    border: 2px solid #007BFF;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.fancy-radio .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+/* Gradient color for the style title */
+.style-title {
+    background: linear-gradient(45deg, #f06, #9f6);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.2rem;
+}
+
+/* Enhance radio button appearance */
+.fancy-radio {
+    transition: transform 0.3s ease;
+}
+
+.fancy-radio:hover {
+    transform: scale(1.1);
+}
+
+/* Highlight the text input with a subtle shadow */
+#formBasicEmail .form-control {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover enhancement */
+.btn-primary:hover {
+    background-color: #0070f3;
+    border-color: #0056b3;
+}
+
+
+/* Reduce space between radio buttons */
+.fancy-radio + .fancy-radio {
+    margin-left: 10px; /* Adjust this value as per your preference */
+}
