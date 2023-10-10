@@ -1,0 +1,5 @@
+**/node_modules
+**/rs-env
+**/bb-env
+**/
+llm-rag-vectordb-python/image-generation-node-js-app/src/frontend/node_modules/*
