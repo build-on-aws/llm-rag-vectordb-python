@@ -44,14 +44,14 @@ Transform your introductory sessions with this application. Input a name, and wa
 
 Build a streamlined Streamlit application to analyze your CSV data. This guide walks you through the process of setting up and running the application.
 
-![Preview](/llm-rag-vectordb-python/data-analysis-tool/da.gif)
+![Preview](data-analysis-tool/da.gif)
 
 **Key Features**:
 - Streamlit: For a smooth web application interface.
 - Langchain: Integrated for advanced functionalities.
 - AWS Services: Harness the power of Amazon's cloud services, especially Amazon Bedrock.
 
-📖 [Detailed Guide & Setup](llm-rag-vectordb-python/data-analysis-tool/README.md)
+📖 [Detailed Guide & Setup](data-analysis-tool/README.md)
 
 ## **Getting Started** 
 
