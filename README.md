@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>☁️🐍 **Getting Started with Amazon Bedrock, RAG, and Vector database in Python**</h1>
+  <h1>☁️🐍 Getting Started with Amazon Bedrock, RAG, and Vector database in Python</h1>
 </p>
 
 
