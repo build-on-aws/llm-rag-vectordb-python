@@ -1,6 +1,5 @@
 [![GitHub stars](https://img.shields.io/github/stars/build-on-aws?color=blue&style=flat-square)](https://github.com/build-on-aws/llm-rag-vectordb-python/stargazers) [![GitHub license](https://img.shields.io/github/license/build-on-aws/llm-rag-vectordb-python?color=green&style=flat-square)](https://github.com/build-on-aws/llm-rag-vectordb-python/blob/main/LICENSE)
 
-
 <h1 align="center">☁️🐍 Getting Started with Amazon Bedrock, RAG, and Vector database in Python</h1>
 
 ### 🔍 Introduction
@@ -12,7 +11,6 @@ In this repository, you'll find sample applications and tutorials that showcase 
 - [Building Bonds Application](#building-bonds)
 - [Data Analysis Tool](#data-analysis-tool)
 - [Getting Started](#getting-started)
----
 
 ### 🚀 Integrated Fullstack Showcase
 Harness the power of Stable Diffusion AI using Amazon Bedrock.
@@ -24,7 +22,6 @@ Harness the power of Stable Diffusion AI using Amazon Bedrock.
 
 ![Showcase](image-generation-node-js-app/img/img-gen.gif)
 
----
 
 ### 📄 Resume Screening App
 Streamline resume screening based on specific job descriptions.
@@ -35,7 +32,6 @@ Streamline resume screening based on specific job descriptions.
 
 ![Screening](resume-screening-app/Resume-Screener.gif)
 
----
 
 ### 🤝 Building Bonds
 Revolutionize introductions by fetching LinkedIn profiles and generating engaging summaries.
@@ -46,7 +42,6 @@ Revolutionize introductions by fetching LinkedIn profiles and generating engagin
 
 ![Bonds](building-bonds/boundbuilding.gif)
 
----
 
 ### 📊 Data Analysis Tool
 Analyze CSV data with a streamlined Streamlit application.
@@ -57,7 +52,6 @@ Analyze CSV data with a streamlined Streamlit application.
 
 ![Analysis](data-analysis-tool/da.gif)
 
----
 
 ### 💼 **Getting Started**
 
@@ -70,7 +64,6 @@ Analyze CSV data with a streamlined Streamlit application.
 3. 🔧 Set up a virtual environment, `.env` files, and install dependencies as outlined in each README.
 4. 🚀 Launch the desired Streamlit app and delve in!
 
----
 
 ### 🔒 **Security**
 [See more on security](CONTRIBUTING.md#security-issue-notifications).
