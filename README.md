@@ -1,14 +1,4 @@
-<style>
-.center-text h1 {
-  transition: color 0.5s;
-}
-
-.center-text h1:hover {
-  color: blue;
-}
-</style>
-
-<p align="center" class="center-text">
+<p align="center">
   <h1>☁️🐍 **Getting Started with Amazon Bedrock, RAG, and Vector database in Python**</h1>
 </p>
 
