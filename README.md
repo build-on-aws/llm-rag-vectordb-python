@@ -1,5 +1,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/build-on-aws?color=blue&style=flat-square)](https://github.com/build-on-aws/llm-rag-vectordb-python/stargazers) [![GitHub license](https://img.shields.io/github/license/build-on-aws/llm-rag-vectordb-python?color=green&style=flat-square)](https://github.com/build-on-aws/llm-rag-vectordb-python/blob/main/LICENSE)
 
+
 <h1 align="center">☁️🐍 Getting Started with Amazon Bedrock, RAG, and Vector database in Python</h1>
 
 ### 🔍 Introduction
