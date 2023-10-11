@@ -86,8 +86,7 @@ def get_bedrock_llm():
             "stopSequences": [],
             "temperature": 0,
             "topP": 1,
-        },
-        client=bedrock_client,
+        }
     )
     
     return llm
@@ -108,9 +107,29 @@ def main():
     st.markdown("<h3 style='text-align: center; font-size: 30px;'>💁 I can help you in the resume screening process 💁 </h3>", unsafe_allow_html=True)
 
     st.markdown("#### 📄 Job Description")
+    
+    # Adding the hyperlink button
+    st.markdown("""
+        <a href="https://d1nd1o4zkls5mq.cloudfront.net/sample_job_description.txt" target="_blank">
+            <button style="color: white; background-color: #FF4B4B; border: none; border-radius: 4px; padding: 10px 15px;">
+                Download Sample Job Description
+            </button>
+        </a>
+    """, unsafe_allow_html=True)
+    
     job_description = st.text_area("Please paste the job description here",key="1")
     
     st.markdown("#### 📥 Upload Resumes")
+
+    # Adding the hyperlink button
+    st.markdown("""
+        <a href="https://d1nd1o4zkls5mq.cloudfront.net/sample_resumes.zip" target="_blank">
+            <button style="color: white; background-color: #FF4B4B; border: none; border-radius: 4px; padding: 10px 15px;">
+                Download Sample Resumes
+            </button>
+        </a>
+    """, unsafe_allow_html=True)
+    
     document_count = st.text_input("Enter the number of resumes you want to screen",key="2")
     
     pdf = st.file_uploader("Upload resumes here, only PDF files allowed", type=["pdf"],accept_multiple_files=True)
