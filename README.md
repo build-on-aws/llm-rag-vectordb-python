@@ -1,8 +1,8 @@
-# **Getting Started with Amazon Bedrock, RAG, and Vector Database in Python** 
+# ☁️🐍 **Getting Started with Amazon Bedrock, RAG, and Vector database in Python**
 
 In this repository, you'll find sample applications and tutorials that showcase the power of **Amazon Bedrock with Python**. These resources are designed to help Python developers understand how to harness **Amazon Bedrock** in building generative AI-enabled applications. You'll also discover how to integrate Bedrock with vector databases using `RAG (Retrieval-augmented generation)`, and services like Amazon Aurora, RDS, and OpenSearch. Additionally, get insights into using `langchain` and `streamlit` to create applications that demonstrate your experiments effectively.
 
-### **Integrated Fullstack Showcase: Harnessing Stable Diffusion AI using Amazon Bedrock**
+### <span style="color:purple">Integrated Fullstack Showcase: Harnessing Stable Diffusion AI using Amazon Bedrock</span>
 
 This application utilize the Stable Diffusion AI model using Amazon Bedrock. 
 
@@ -16,7 +16,7 @@ This application utilize the Stable Diffusion AI model using Amazon Bedrock.
 
 📖 [Detailed Guide & Setup](image-generation-node-js-app//README.md)
 
-### **Resume Screening App using Amazon Bedrock and Amazon Aurora (`pgvector`)** 
+### <span style="color:purple">Resume Screening App using Amazon Bedrock and Amazon Aurora (`pgvector`)</span>
 
 This application streamlines the resume screening process based on specific job descriptions. 
 
@@ -28,7 +28,7 @@ This application streamlines the resume screening process based on specific job 
 
 📖 [Detailed Guide & Setup](resume-screening-app/README.md)
 
-### **Building Bonds: Harnessing Ice-Breakers for Introductions**
+### <span style="color:purple">Building Bonds: Harnessing Ice-Breakers for Introductions</span>
 
 Transform your introductory sessions with this application. Input a name, and watch as the app fetches the LinkedIn profile of the person, providing a succinct summary and engaging ice-breaker facts. 
 
@@ -40,7 +40,7 @@ Transform your introductory sessions with this application. Input a name, and wa
 
 📖 [Detailed Guide & Setup](building-bonds/README.md)
 
-### **Data Analysis Tool using Amazon Bedrock**
+### <span style="color:purple">Data Analysis Tool using Amazon Bedrock</span>
 
 Build a streamlined Streamlit application to analyze your CSV data. This guide walks you through the process of setting up and running the application.
 
