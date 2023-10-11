@@ -1,13 +1,16 @@
-<p align="center" style="background: -webkit-linear-gradient(left, red, yellow, green); 
-                          -moz-linear-gradient(left, red, yellow, green);
-                          background-clip: text;
-                          -webkit-background-clip: text;
-                          -moz-background-clip: text;
-                          -webkit-text-fill-color: transparent;
-                          color: transparent;">
-  <h1>☁️🐍 Getting Started with Amazon Bedrock, RAG, and Vector database in Python ☁️🐍</h1>
-</p>
+<style>
+.center-text h1 {
+  transition: color 0.5s;
+}
 
+.center-text h1:hover {
+  color: blue;
+}
+</style>
+
+<p align="center" class="center-text">
+  <h1>☁️🐍 **Getting Started with Amazon Bedrock, RAG, and Vector database in Python**</h1>
+</p>
 
 
 In this repository, you'll find sample applications and tutorials that showcase the power of **Amazon Bedrock with Python**. These resources are designed to help Python developers understand how to harness **Amazon Bedrock** in building generative AI-enabled applications. You'll also discover how to integrate Bedrock with vector databases using `RAG (Retrieval-augmented generation)`, and services like Amazon Aurora, RDS, and OpenSearch. Additionally, get insights into using `langchain` and `streamlit` to create applications that demonstrate your experiments effectively.
