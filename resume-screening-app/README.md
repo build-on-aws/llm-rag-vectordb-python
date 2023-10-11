@@ -9,7 +9,7 @@ Build a streamlined Streamlit application to effectively screen resumes based on
 - **Streamlit**: For a smooth web application interface.
 - **Langchain**: Integrated for advanced functionalities.
 - **AWS Services**: Harness the power of Amazon's cloud services.
-    - **Amazon Bedrock**: A foundation service.
+    - **Amazon Bedrock**: A fully managed service that offers a choice of high-performing foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Stability AI, and Amazon with a single API, along with a broad set of capabilities you need to build generative AI applications, simplifying development while maintaining privacy and security
     - **Amazon Aurora**: Utilized as a vector database with `pgvector`.
 
 ## **Getting Started** 
@@ -77,5 +77,4 @@ To launch the application:
 
 4. Your default web browser will open, showcasing the application interface.
 
-5. Follow the on-screen instructions to load multiple resumes ([sample resumes](https://d1nd1o4zkls5mq.cloudfront.net/sample_resumes.zip)) and the desired job description ([sample job description](sample_job_description.txt)).
-
+5. Follow the on-screen instructions to load your CSV data ([sample data](https://d1nd1o4zkls5mq.cloudfront.net/sample_resumes.zip)) and the desired job description ([sample job description](https://d1nd1o4zkls5mq.cloudfront.net/sample_job_description.txt)).

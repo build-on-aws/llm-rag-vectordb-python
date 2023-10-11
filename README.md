@@ -40,6 +40,19 @@ Transform your introductory sessions with this application. Input a name, and wa
 
 📖 [Detailed Guide & Setup](building-bonds/README.md)
 
+### **Data Analysis Tool using Amazon Bedrock**
+
+Build a streamlined Streamlit application to analyze your CSV data. This guide walks you through the process of setting up and running the application.
+
+![Preview](/llm-rag-vectordb-python/data-analysis-tool/da.gif)
+
+**Key Features**:
+- Streamlit: For a smooth web application interface.
+- Langchain: Integrated for advanced functionalities.
+- AWS Services: Harness the power of Amazon's cloud services, especially Amazon Bedrock.
+
+📖 [Detailed Guide & Setup](llm-rag-vectordb-python/data-analysis-tool/README.md)
+
 ## **Getting Started** 
 
 1. Clone this repository to your local machine.
@@ -48,6 +61,7 @@ Transform your introductory sessions with this application. Input a name, and wa
     - For **Resume Screening App**: Follow the [README guide](resume-screening-app/README.md).
     - For **Building Bonds**: Check out the [README guide](building-bonds/README.md).
     - For **Stable Diffusion AI App**: Check out the [README guide](image-generation-node-js-app/README.md).
+    - For **Data Analysis Tool**: Follow the [README guide](llm-rag-vectordb-python/data-analysis-tool/README.md).
 
 3. For each project, ensure you set up a virtual environment, populate the `.env` files, and install the necessary dependencies. Details are available in the respective READMEs.
 
