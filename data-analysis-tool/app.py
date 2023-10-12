@@ -6,6 +6,14 @@ from langchain.agents import create_pandas_dataframe_agent
 import pandas as pd
 import boto3
 
+# Set page config
+st.set_page_config(
+    page_title="CSV Analyzer", 
+    page_icon="🔍",
+    layout="centered", 
+    initial_sidebar_state="collapsed",
+)
+
 def get_bedrock_llm():
 
     session = boto3.Session()
@@ -22,14 +30,6 @@ def get_bedrock_llm():
     )
     
     return llm
-
-# Set page config
-st.set_page_config(
-    page_title="CSV Analyzer", 
-    page_icon="🔍",
-    layout="centered", 
-    initial_sidebar_state="collapsed",
-)
 
 def query_agent(data, query):
     formatted_query = f'Human: {query}'
