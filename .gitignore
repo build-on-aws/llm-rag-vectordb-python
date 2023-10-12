@@ -8,4 +8,7 @@ README-bk.md
 **/.DS_Store
 .DS_Store
 **/.env
+ingredient-to-recipe/.env
+data-analysis-tool/.env
+resume-screening-app/.env
 llm-rag-vectordb-python/image-generation-node-js-app/src/frontend/node_modules/*
