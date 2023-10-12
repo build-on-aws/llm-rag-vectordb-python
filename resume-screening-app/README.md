@@ -2,7 +2,7 @@
 
 Build a streamlined Streamlit application to effectively screen resumes based on job descriptions. This guide walks you through the process of setting up and running the application.
 
-![Preview](/llm-rag-vectordb-python/resume-screening-app/Resume-Screener.gif)
+![Preview](Resume-Screener.gif)
 
 ## **Features** 
 

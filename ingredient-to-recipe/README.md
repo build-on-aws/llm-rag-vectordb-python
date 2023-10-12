@@ -2,7 +2,7 @@
 
 Build a streamlined Streamlit application to generate recipe given an image of all the ingradients. This guide walks you through the process of setting up and running the application.
 
-![Preview](/llm-rag-vectordb-python/ingredient-to-recipe/rec.gif)
+![Preview](rec.gif)
 
 ## **Features** 
 
