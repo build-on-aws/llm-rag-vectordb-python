@@ -59,7 +59,7 @@ Build a streamlined Streamlit application to generate recipes given an image of 
     - Integration with Hugging Face.
     - Generative AI applications with Amazon Bedrock.
 
-![Recipe](/llm-rag-vectordb-python/ingredient-to-recipe/rec.gif)
+![Recipe](llm-rag-vectordb-python/ingredient-to-recipe/rec.gif)
 
 ### 💼 **Getting Started**
 
