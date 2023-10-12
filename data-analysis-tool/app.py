@@ -4,7 +4,24 @@ import streamlit as st
 from dotenv import load_dotenv
 from langchain.agents import create_pandas_dataframe_agent
 import pandas as pd
-from langchain.llms import OpenAI
+import boto3
+
+def get_bedrock_llm():
+
+    session = boto3.Session()
+    bedrock_client = session.client(service_name="bedrock")
+
+    llm = Bedrock(
+        model_id="amazon.titan-tg1-large",
+        model_kwargs={
+            "maxTokenCount": 4096,
+            "stopSequences": [],
+            "temperature": 0,
+            "topP": 1,
+        }
+    )
+    
+    return llm
 
 # Set page config
 st.set_page_config(
@@ -17,7 +34,7 @@ st.set_page_config(
 def query_agent(data, query):
     formatted_query = f'Human: {query}'
     df = pd.read_csv(data)
-    llm = OpenAI()
+    llm = get_bedrock_llm()    
     agent = create_pandas_dataframe_agent(llm, df, verbose=True)
     return agent.run(formatted_query)
 
