@@ -2,7 +2,7 @@
 
 Build a streamlined Streamlit application to analize your CSV data. This guide walks you through the process of setting up and running the application.
 
-![Preview](/llm-rag-vectordb-python/data-analysis-tool/da.gif)
+![Preview](da.gif)
 
 ## **Features** 
 
