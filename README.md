@@ -6,11 +6,11 @@
 In this repository, you'll find sample applications and tutorials that showcase the power of **Amazon Bedrock with Python**. These resources are designed to help Python developers understand how to harness **Amazon Bedrock** in building generative AI-enabled applications. You'll also discover how to integrate Bedrock with vector databases using `RAG (Retrieval-augmented generation)`, and services like Amazon Aurora, RDS, and OpenSearch. Additionally, get insights into using `langchain` and `streamlit` to create applications that demonstrate your experiments effectively.
 
 ### 📑 Table of Contents
-- [Stable Diffusion AI Application](image-generation-node-js-app/README.md)
-- [Resume Screening Application](resume-screening-app/README.md)
-- [Building Bonds Application](data-analysis-tool/README.md)
-- [Data Analysis Tool](data-analysis-tool/README.md)
-- [Instant Recipe Generator](ingredient-to-recipe/README.md)
+- [Stable Diffusion AI Application](image-generation-node-js-app)
+- [Resume Screening Application](resume-screening-app)
+- [Building Bonds Application](data-analysis-tool)
+- [Data Analysis Tool](data-analysis-tool)
+- [Instant Recipe Generator](ingredient-to-recipe)
 - [Getting Started](#getting-started)
 
 ### 🚀 Integrated Fullstack Showcase
