@@ -1,6 +1,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/build-on-aws?color=blue&style=flat-square)](https://github.com/build-on-aws/llm-rag-vectordb-python/stargazers) [![GitHub license](https://img.shields.io/github/license/build-on-aws/llm-rag-vectordb-python?color=green&style=flat-square)](https://github.com/build-on-aws/llm-rag-vectordb-python/blob/main/LICENSE)
 
-<h1 align="center">☁️🐍 Getting Started with Amazon Bedrock, RAG, and Vector database in Python</h1>
+<h1 align="center">☁️🐍 Getting started with Amazon Bedrock, RAG, and Vector database in Python</h1>
 
 ### 🔍 Introduction
 In this repository, you'll find sample applications and tutorials that showcase the power of **Amazon Bedrock with Python**. These resources are designed to help Python developers understand how to harness **Amazon Bedrock** in building generative AI-enabled applications. You'll also discover how to integrate Bedrock with vector databases using `RAG (Retrieval-augmented generation)`, and services like Amazon Aurora, RDS, and OpenSearch. Additionally, get insights into using `langchain` and `streamlit` to create applications that demonstrate your experiments effectively.
