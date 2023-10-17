@@ -8,7 +8,6 @@ from langchain.chains.summarize import load_summarize_chain
 from langchain.vectorstores.pgvector import PGVector
 
 import os
-import boto3
 import uuid
 
 #Creating session variables
@@ -75,9 +74,6 @@ def get_summary(current_doc):
     return summary
 
 def get_bedrock_llm():
-
-    session = boto3.Session()
-    bedrock_client = session.client(service_name="bedrock")
 
     llm = Bedrock(
         model_id="amazon.titan-tg1-large",
