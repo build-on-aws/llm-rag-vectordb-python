@@ -1,10 +1,10 @@
-import boto3
-from langchain.llms.bedrock import Bedrock
+# from langchain.llms import Bedrock
+from langchain.llms import Bedrock
+
 import streamlit as st
 from dotenv import load_dotenv
 from langchain.agents import create_pandas_dataframe_agent
 import pandas as pd
-import boto3
 
 # Set page config
 st.set_page_config(
@@ -16,11 +16,9 @@ st.set_page_config(
 
 def get_bedrock_llm():
 
-    session = boto3.Session()
-    bedrock_client = session.client(service_name="bedrock")
-
     llm = Bedrock(
         model_id="amazon.titan-tg1-large",
+        # credentials_profile_name="default",
         model_kwargs={
             "maxTokenCount": 4096,
             "stopSequences": [],
@@ -37,6 +35,7 @@ def query_agent(data, query):
     llm = get_bedrock_llm()    
     agent = create_pandas_dataframe_agent(llm, df, verbose=True)
     return agent.run(formatted_query)
+    # return agent.run(formatted_query, handle_parsing_errors=True)
 
 def main():
     st.title("🔍 Your daily CSV Data Analyzer")
