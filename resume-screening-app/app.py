@@ -64,27 +64,34 @@ def similar_docs(vectorstore, job_description, document_count, unique_id):
     return similar_docs
     
 # Helps us get the summary of a document
-def get_summary(current_doc):
-    
-    llm = get_bedrock_llm()
+def get_summary(current_doc, selected_llm):
+
+    llm = get_bedrock_llm(selected_llm)
     
     chain = load_summarize_chain(llm, chain_type="map_reduce")
     summary = chain.run([current_doc])
 
     return summary
 
-def get_bedrock_llm():
 
-    llm = Bedrock(
-        model_id="amazon.titan-tg1-large",
-        model_kwargs={
-            "maxTokenCount": 4096,
-            "stopSequences": [],
-            "temperature": 0,
-            "topP": 1,
-        }
-    )
-    
+def get_bedrock_llm(selected_llm):
+    print(f"[INFO] Selected LLM is : {selected_llm}")
+    if selected_llm in ['anthropic.claude-v2', 'anthropic.claude-v1', 'anthropic.claude-instant-v1']:
+        llm = Bedrock(model_id=selected_llm, model_kwargs={'max_tokens_to_sample': 4096})
+
+    elif selected_llm in ['amazon.titan-tg1-large', 'amazon.titan-text-express-v1', 'amazon.titan-text-lite-v1']:
+        llm = Bedrock(
+            model_id=selected_llm,
+            model_kwargs={
+                "maxTokenCount": 4096,
+                "stopSequences": [],
+                "temperature": 0,
+                "topP": 1,
+            }
+        )
+    else:
+        raise ValueError(f"Unsupported LLM: {selected_llm}")
+
     return llm
 
 def main():
@@ -129,6 +136,19 @@ def main():
     document_count = st.text_input("Enter the number of resumes you want to screen",key="2")
     
     pdf = st.file_uploader("Upload resumes here, only PDF files allowed", type=["pdf"],accept_multiple_files=True)
+    
+    # Add LLM selection UI
+    st.markdown("#### 🤖 Select the LLM")
+    llm_options = [
+        'anthropic.claude-v2', 
+        'anthropic.claude-v1', 
+        'anthropic.claude-instant-v1',
+        'amazon.titan-tg1-large', 
+        'amazon.titan-text-express-v1', 
+        'amazon.titan-text-lite-v1'
+    ]
+    
+    selected_llm = st.radio("Choose an LLM", options=llm_options)
 
     submit=st.button("Help me with the analysis")
 
@@ -167,7 +187,9 @@ def main():
                     #st.write("***"+relavant_docs[item][0].page_content)
                     
                     #Gets the summary of the current item using 'get_summary' function that we have created which uses LLM & Langchain chain
-                    summary = get_summary(relavant_docs[item][0])
+                    # summary = get_summary(relavant_docs[item][0])
+                    summary = get_summary(relavant_docs[item][0], selected_llm=selected_llm)
+
                     st.write("**Summary** : "+summary)           
         
         st.success("Hope I was able to save your time❤️")
