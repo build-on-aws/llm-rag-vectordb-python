@@ -99,7 +99,7 @@ def main():
     st.set_page_config(page_title="Resume Screening Assistance")
 
     # Centering the title using HTML in st.markdown
-    st.markdown("<h1 style='text-align: center;'>Resume Screening Assistance</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>résumé Screening Assistance</h1>", unsafe_allow_html=True)
 
     # Centering and coloring the subtitle using HTML in st.markdown
     st.markdown("<h2 style='text-align: center; color: orange;'>Powered by Amazon Bedrock</h2>", unsafe_allow_html=True)
@@ -107,7 +107,7 @@ def main():
     # You may choose any color for the subtitle by replacing 'blue' with your preferred color.
 
     # If you prefer a different color for the subheader:
-    st.markdown("<h3 style='text-align: center; font-size: 30px;'>💁 I can help you in the resume screening process 💁 </h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; font-size: 30px;'>💁 I can help you in the Résumé screening process 💁 </h3>", unsafe_allow_html=True)
 
     st.markdown("#### 📄 Job Description")
     
@@ -122,13 +122,13 @@ def main():
     
     job_description = st.text_area("Please paste the job description here",key="1")
     
-    st.markdown("#### 📥 Upload Resumes")
+    st.markdown("#### 📥 Upload Résumés")
 
     # Adding the hyperlink button
     st.markdown("""
         <a href="https://d1nd1o4zkls5mq.cloudfront.net/sample_resumes.zip" target="_blank">
             <button style="color: white; background-color: #FF4B4B; border: none; border-radius: 4px; padding: 10px 15px;">
-                Download Sample Resumes
+                Download Sample Résumés
             </button>
         </a>
     """, unsafe_allow_html=True)
@@ -141,7 +141,6 @@ def main():
     st.markdown("#### 🤖 Select the LLM")
     llm_options = [
         'anthropic.claude-v2', 
-        'anthropic.claude-v1', 
         'anthropic.claude-instant-v1',
         'amazon.titan-tg1-large', 
         'amazon.titan-text-express-v1', 

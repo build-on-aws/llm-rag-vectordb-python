@@ -1,6 +1,6 @@
-# **Resume Screening App using Amazon Bedrock and Amazon Aurora (`pgvector`)** 
+# **Résumé Screening App using Amazon Bedrock and Amazon Aurora (`pgvector`)** 
 
-Build a streamlined Streamlit application to effectively screen resumes based on job descriptions. This guide walks you through the process of setting up and running the application.
+Build a streamlined Streamlit application to effectively screen Résumés based on job descriptions. This guide walks you through the process of setting up and running the application.
 
 ![Preview](Resume-Screener.gif)
 
