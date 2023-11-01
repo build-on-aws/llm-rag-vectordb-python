@@ -4,6 +4,7 @@ README-bk.md
 **/bb-env
 **/da-env
 **/res-env
+**/data-search-env
 **/__pycache__
 **/.DS_Store
 .DS_Store
@@ -13,5 +14,4 @@ data-analysis-tool/.env
 resume-screening-app/.env
 data-analysis-tool/.env
 llm-rag-vectordb-python/image-generation-node-js-app/src/frontend/node_modules/*
-searching-from-my-data/*
-searching-from-my-data
+searching-from-my-data/.env
