@@ -48,15 +48,14 @@ def get_vectorstore(text_chunks):
     embeddings = BedrockEmbeddings()
     
     docsearch = PGVector.from_documents(documents=text_chunks, 
-                                   embedding=embeddings, 
-                                   collection_name='resume-embeddings-index',
-                                   connection_string=CONNECTION_STRING)
+                                       embedding=embeddings, 
+                                       collection_name='resume-embeddings-index',
+                                       connection_string=CONNECTION_STRING)
 
     return docsearch 
 
 def similar_docs(vectorstore, job_description, document_count, unique_id):
     
-    # llm = HuggingFaceHub(repo_id="MBZUAI/LaMini-Flan-T5-783M", model_kwargs={"temperature":0.2, "max_length":4096})
     similar_docs = vectorstore.similarity_search_with_score(job_description, 
                                                             int(document_count),
                                                             {"unique_id":unique_id})
