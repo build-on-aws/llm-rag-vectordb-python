@@ -98,7 +98,7 @@ def main():
     st.set_page_config(page_title="Resume Screening Assistance")
 
     # Centering the title using HTML in st.markdown
-    st.markdown("<h1 style='text-align: center;'>résumé Screening Assistance</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Resume Screening Assistance</h1>", unsafe_allow_html=True)
 
     # Centering and coloring the subtitle using HTML in st.markdown
     st.markdown("<h2 style='text-align: center; color: orange;'>Powered by Amazon Bedrock</h2>", unsafe_allow_html=True)
@@ -106,7 +106,7 @@ def main():
     # You may choose any color for the subtitle by replacing 'blue' with your preferred color.
 
     # If you prefer a different color for the subheader:
-    st.markdown("<h3 style='text-align: center; font-size: 30px;'>💁 I can help you in the Résumé screening process 💁 </h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; font-size: 30px;'>💁 I can help you in the Resume screening process 💁 </h3>", unsafe_allow_html=True)
 
     st.markdown("#### 📄 Job Description")
     
