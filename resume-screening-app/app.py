@@ -14,6 +14,15 @@ import uuid
 if 'unique_id' not in st.session_state:
     st.session_state['unique_id'] =''
     
+#Extract Information from PDF file
+def get_pdf_text(pdf_doc):
+    text = ""
+    pdf_reader = PdfReader(pdf_doc)
+    for page in pdf_reader.pages:
+        text += page.extract_text()
+    text = text.replace('\x00', '')  # Remove null characters
+    
+    return text
 
 def create_docs(user_pdf_list, unique_id):
     docs=[]
@@ -32,15 +41,6 @@ def create_docs(user_pdf_list, unique_id):
         ))
 
     return docs
-
-#Extract Information from PDF file
-def get_pdf_text(pdf_doc):
-    text = ""
-    pdf_reader = PdfReader(pdf_doc)
-    for page in pdf_reader.pages:
-        text += page.extract_text()
-    text = text.replace('\x00', '')  # Remove null characters
-    return text
     
 def get_vectorstore(text_chunks):
 
@@ -71,7 +71,6 @@ def get_summary(current_doc, selected_llm):
     summary = chain.run([current_doc])
 
     return summary
-
 
 def get_bedrock_llm(selected_llm):
     print(f"[INFO] Selected LLM is : {selected_llm}")
