@@ -10,11 +10,11 @@ from langchain.vectorstores.pgvector import PGVector
 import os
 import uuid
 
-#Creating session variables
+# Creating session variables
 if 'unique_id' not in st.session_state:
     st.session_state['unique_id'] =''
     
-#Extract Information from PDF file
+# Extract Information from PDF file
 def get_pdf_text(pdf_doc):
     text = ""
     pdf_reader = PdfReader(pdf_doc)
