@@ -120,13 +120,13 @@ def main():
     
     job_description = st.text_area("Please paste the job description here",key="1")
     
-    st.markdown("#### 📥 Upload Résumés")
+    st.markdown("#### 📥 Upload Resumes")
 
     # Adding the hyperlink button
     st.markdown("""
         <a href="https://d1nd1o4zkls5mq.cloudfront.net/sample_resumes.zip" target="_blank">
             <button style="color: white; background-color: #FF4B4B; border: none; border-radius: 4px; padding: 10px 15px;">
-                Download Sample Résumés
+                Download Sample Resumes
             </button>
         </a>
     """, unsafe_allow_html=True)
