@@ -12,14 +12,14 @@ WHERE table_schema = 'public';
 -- SHOW all the collections
 SELECT * FROM langchain_pg_collection;
 
--- SHOW all the embeddings (Before adding the vectors)
+-- SHOW all the embeddings (Before adding the vectors) --> All columns
 SELECT * FROM langchain_pg_embedding;
 
--- SHOW all the embeddings (After adding the vectors)
+-- SHOW all the embeddings (After adding the vectors)  --> Few columns
 SELECT langchain_pg_embedding.collection_id,
        langchain_pg_embedding.embedding,
        langchain_pg_embedding.document
-FROM langchain_pg_embedding
+FROM langchain_pg_embedding;
 
 -- SHOW all the collections (After the start of resume building app)
 SELECT * FROM langchain_pg_collection;
