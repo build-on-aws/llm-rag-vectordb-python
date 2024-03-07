@@ -153,7 +153,7 @@ def main():
     if submit:
         with st.spinner('Wait for it...'):
 
-            #Creating a unique ID, so that we can use to query and get only the user uploaded documents from PINECONE vector store
+            #Creating a unique ID, so that we can use to query and get only the user uploaded documents from Aurora vector store
             st.session_state['unique_id']=uuid.uuid4().hex
 
             #Create a documents list out of all the user uploaded pdf files
