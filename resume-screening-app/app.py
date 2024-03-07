@@ -44,7 +44,6 @@ def create_docs(user_pdf_list, unique_id):
     
 def get_vectorstore(text_chunks):
 
-    # embeddings = HuggingFaceInstructEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
     embeddings = BedrockEmbeddings()
     
     docsearch = PGVector.from_documents(documents=text_chunks, 
