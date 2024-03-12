@@ -1,0 +1,14 @@
+streamlit==1.24.0
+tiktoken==0.5.1
+unstructured==0.10.16
+langchain==0.0.312
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+psycopg2-binary==2.9.6
+altair==4.0.0
+pgvector==0.2.3
+urllib3==1.26.17
+boto3==1.28.62
+transformers==4.34.0
+tensorflow==2.14.0
+flax==0.7.4

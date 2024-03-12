@@ -1,0 +1,16 @@
+DESCRIPTION
+The Amazon Maps Data (AMD) team curates geospatial map data that represents the physical world at a fidelity that enables safe and efficient logistics for last mile operations at Amazon. This data powers Amazon Maps used in more than 10 million trips and 15 million kilometers of driving by last mile Amazon drivers every day.
+The team builds geospatial big data pipelines that ingest raw map data from multiple heterogenous sources and fuses them into one single map using machine learning models and graph algorithms. The machine learning models range from regression models to map-match map elements to deep learning models that align maps features consumed from different sources.
+Artifacts generated from this data is used in (i) shortest path computations for planning of delivery routes, (i) providing turn-by-turn navigation instructions to drivers, (iii) displaying the map visuals on the Amazon Flex app used by last mile drivers, and (iv) planning delivery sectors within the jurisdiction of an Amazon delivery station. Beside extensive usage of AWS cloud services, the team builds software using bleeding edge big data technologies like GeoSpark and GraphX.
+
+We are open to hiring candidates to work out of one of the following locations: Bellevue, WA, USA
+
+BASIC QUALIFICATIONS
+- 3+ years of non-internship professional software development experience
+- 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience
+- Experience programming with at least one software programming language
+- 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience
+
+PREFERRED QUALIFICATIONS
+- Bachelor's degree in computer science or equivalent
+- Experience in machine learning, data mining, information retrieval, statistics or natural language processing
