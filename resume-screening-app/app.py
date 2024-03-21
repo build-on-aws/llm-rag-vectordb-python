@@ -53,15 +53,13 @@ def get_vectorstore(text_chunks):
 
     return docsearch 
 
-def similar_docs(vectorstore, job_description, document_count, unique_id):
-    
+def similar_docs(vectorstore, job_description, document_count, unique_id): 
     similar_docs = vectorstore.similarity_search_with_score(job_description, 
                                                             int(document_count),
                                                             {"unique_id":unique_id})
     
     return similar_docs
-    
-# Helps us get the summary of a document
+
 def get_summary(current_doc, selected_llm):
 
     llm = get_bedrock_llm(selected_llm)
