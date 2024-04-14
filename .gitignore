@@ -17,5 +17,5 @@ data-analysis-tool/.env
 llm-rag-vectordb-python/image-generation-node-js-app/src/frontend/node_modules/*
 searching-from-my-data/.env
 getting-started-with-bedrock/.env
-into-to-rag/rag.ipynb
+into-to-rag/rag-wip.ipynb
 
