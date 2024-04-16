@@ -1,9 +1,9 @@
-streamlit==1.24.0
-langchain==0.1.16
-PyPDF2==3.0.1
-python-dotenv==1.0.0
-pgvector==0.2.5
-psycopg2-binary==2.9.6
+langchain==0.1.11
+boto3>=1.28.27
+anthropic
+streamlit
+pgvector
+psycopg2-binary
 tiktoken
-boto3
-PyPDF2==3.0.1
+PyPDF2
+python-dotenv==1.0.0
