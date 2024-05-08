@@ -5,7 +5,7 @@ langchain==0.0.312
 boto3==1.28.61
 botocore==1.31.61
 altair==4.0.0
-pydantic==1.10.9
+pydantic==1.10.13
 psycopg==3.1.10
 psycopg-binary==3.1.10
 psycopg2-binary==2.9.6
