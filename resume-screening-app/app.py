@@ -34,7 +34,7 @@ def create_docs(user_pdf_list, unique_id):
         docs.append(Document(
             page_content=chunks,
             metadata={"name": filename.name,
-                      "id": filename.id,
+                      "id": filename.file_id,
                       "type": filename.type,
                       "size": filename.size,
                       "unique_id": unique_id},
