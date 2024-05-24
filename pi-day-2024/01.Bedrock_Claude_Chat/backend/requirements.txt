@@ -1,5 +1,5 @@
 fastapi==0.104.1
-requests==2.31.0
+requests==2.32.2
 pydantic==2.1.1
 pyhumps==3.8.0
 uvicorn==0.23.1
