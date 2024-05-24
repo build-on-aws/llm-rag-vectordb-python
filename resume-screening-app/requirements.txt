@@ -1,9 +1,0 @@
-langchain==0.1.11
-boto3>=1.28.27
-anthropic
-streamlit
-pgvector
-psycopg2-binary
-tiktoken
-PyPDF2
-python-dotenv==1.0.0
