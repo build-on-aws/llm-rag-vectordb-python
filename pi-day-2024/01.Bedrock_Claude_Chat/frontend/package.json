@@ -11,10 +11,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^5.0.6",
+    "@aws-amplify/ui-react": "^5.1.0",
     "@headlessui/react": "^1.7.15",
     "@react-icons/all-files": "^4.1.0",
-    "aws-amplify": "^5.3.5",
+    "aws-amplify": "^6.4.3",
     "axios": "^1.4.0",
     "copy-to-clipboard": "^3.3.3",
     "i18next": "^23.6.0",
