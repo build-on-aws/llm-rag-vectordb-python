@@ -1,5 +1,5 @@
 SQLAlchemy==2.0.19
-streamlit==1.12.0
+streamlit==1.37.0
 streamlit-chat==0.1.1
 langchain==0.0.312
 boto3==1.28.61
