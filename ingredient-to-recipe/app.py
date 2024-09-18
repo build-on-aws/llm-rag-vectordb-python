@@ -1,9 +1,10 @@
 import os
 from dotenv import load_dotenv
-from langchain import PromptTemplate, LLMChain
+from langchain_core.prompts import PromptTemplate
 from transformers import pipeline
 import streamlit as st
-from langchain.llms.bedrock import Bedrock
+import boto3
+from langchain_aws import ChatBedrock
 
 PAGE_CONFIG = {"page_title":"Image to Recipe", "page_icon":":chef:", "layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)
@@ -24,8 +25,14 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 def get_llm():
-    bedrock_llm = Bedrock(model_id="anthropic.claude-v2",
-                          model_kwargs={"temperature": 0.7, "max_tokens_to_sample": 4096})
+ 
+    bedrock_client = boto3.client('bedrock-runtime')    
+    bedrock_llm = ChatBedrock(
+        provider="anthropic",
+        model_id="anthropic.claude-3-5-sonnet-20240620-v1:0", 
+        client = bedrock_client,
+        model_kwargs={"max_tokens": 4096, "temperature": 0.7},
+    )
     return bedrock_llm
 
 def image_to_text(url):
@@ -87,12 +94,12 @@ def generate_recipe(ingredients):
     """
 
     with st.spinner('Making the recipe for you...'):
-        prompt = PromptTemplate(template=template, input_variables=["ingredients"])
+        prompt = PromptTemplate.from_template(template=template)
+        prompt_formatted_str: str = prompt.format(ingredients=ingredients)
         llm = get_llm()
-        recipe_chain = LLMChain(llm=llm, prompt=prompt, verbose=True)
-        recipe = recipe_chain.run(ingredients)
+        recipe = llm.invoke(input=prompt_formatted_str)
 
-    return recipe
+    return recipe.content
 
 def main():
 
@@ -151,8 +158,5 @@ def main():
         os.remove(upload_file.name)
 
 if __name__ == "__main__":
-    load_dotenv()
-    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-    HUGGINFACE_HUB_API_TOKEN = os.getenv("HUGGINFACE_HUB_API_TOKEN")
-    
+    load_dotenv()    
     main()
