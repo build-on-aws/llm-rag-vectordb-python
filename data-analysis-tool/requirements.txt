@@ -1,6 +1,6 @@
 streamlit==1.24.0
 tiktoken==0.5.1
-unstructured==0.10.16
+unstructured==0.14.3
 langchain==0.0.316 
 PyPDF2==3.0.1
 python-dotenv==1.0.0
